@@ -65,5 +65,5 @@ y_intersect = y_critical
 ax.plot([0, x_intersect], [y_intersect, y_intersect], color='red', linestyle='dotted')
 ax.text(Energy_min, y_critical, f'({Energy_min}, {y_critical})', fontsize=8)
 
-
+#show
 plt.show()
